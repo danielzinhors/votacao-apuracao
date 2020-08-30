@@ -12,7 +12,7 @@ const __dirname = dirname(__filename);
 dotenv.config();
 
 const app = express();
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'cliente/build')));
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
