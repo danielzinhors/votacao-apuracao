@@ -1,11 +1,11 @@
+.nav {
+}
+
 .divTitulo {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   justify-content: center;
-  border-radius: 4px;
-  border: 1px solid lightgray;
-  background-color: #55efc4;
+  background-color: #509789;
 }
 
 .titulo {
@@ -13,10 +13,9 @@
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: #ffffff;
   text-transform: uppercase;
   clear: both;
-  font-stretch: expanded;
 }
 
 .logo {
@@ -25,9 +24,6 @@
   padding: 1px;
   margin-right: 45px;
   background-color: white;
-}
-
-.nav {
 }
 
 .divDivider {

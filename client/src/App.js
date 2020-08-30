@@ -55,7 +55,7 @@ export default function App() {
                 <div className={css.divTitulo}>
                   <img
                     className={css.logo}
-                    src="logo.jpg" //""
+                    src="logo.jpg"
                     alt=""
                     height="80px"
                     width="80px"
