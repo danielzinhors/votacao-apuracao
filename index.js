@@ -12,12 +12,12 @@ const __dirname = dirname(__filename);
 dotenv.config();
 
 const app = express();
-app.use(express.static(path.join(__dirname, 'cliente/build')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.get('/', (_, res) => {
+app.get('/api', (_, res) => {
   res.json({
     message:
       'Bem-vindo ao módulo de votação!' +
@@ -25,7 +25,7 @@ app.get('/', (_, res) => {
   });
 });
 
-app.use('/vote', voteRouter);
+app.use('/api/vote', voteRouter);
 const APP_PORT = process.env.PORT || 8080;
 app.listen(APP_PORT, () => {
   console.log('Start');
