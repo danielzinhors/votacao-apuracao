@@ -1,4 +1,5 @@
 import React from 'react';
+import css from './avatar.module.css';
 
 /**
  * Functional Component para montar uma imagem
@@ -11,7 +12,7 @@ export default function Avatar({ imageURL, name }) {
   return (
     <img
       src={imageURL}
-      className="item circle"
+      className={css.logo}
       width="100px"
       height="100px"
       alt={name}
