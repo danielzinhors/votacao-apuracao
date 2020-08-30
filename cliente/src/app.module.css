@@ -1,0 +1,40 @@
+.divTitulo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  background-color: #55efc4;
+}
+
+.titulo {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  clear: both;
+  font-stretch: expanded;
+}
+
+.logo {
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  padding: 1px;
+  margin-right: 45px;
+  background-color: white;
+}
+
+.nav {
+}
+
+.divDivider {
+  margin: 20px;
+  height: 20px;
+}
+
+.divVoto {
+  margin: 20px, 0, 0, 0;
+}
